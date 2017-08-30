@@ -1,0 +1,8 @@
+version: "3"
+services:
+  redis:
+    image: redis
+  arewewet:
+    image: wtfcoderz/arewewet
+    ports:
+      - "1664:1664"

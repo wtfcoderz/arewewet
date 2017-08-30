@@ -1,0 +1,24 @@
+{
+  "name": "arewewet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtfcoderz/arewewet.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtfcoderz/arewewet/issues"
+  },
+  "homepage": "https://github.com/wtfcoderz/arewewet#readme",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "request": "^2.81.0",
+    "restify": "^5.2.0"
+  }
+}
