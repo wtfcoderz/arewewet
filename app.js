@@ -7,7 +7,7 @@ const server = restify.createServer({
   version: '1.0.0'
 });
 
-const redisCli = redis.createClient('redis://redis:6379');
+const redisCli = redis.createClient('redis://arewewet-bdd:6379');
 redisCli.on("error", function (err) {
     console.log("Error " + err);
 });
@@ -120,7 +120,7 @@ server.get('/api/move/:move', function (req, res, next) {
       }
       i += 5;
     }
-    res.json(obj);
+    res.json({"move": obj, "raw": results});
   });
 });
 

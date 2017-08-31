@@ -1,6 +1,6 @@
 version: "3"
 services:
-  redis:
+  arewewet-bdd:
     image: redis
   arewewet:
     image: wtfcoderz/arewewet
