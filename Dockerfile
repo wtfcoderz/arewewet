@@ -1,4 +1,5 @@
-FROM    node:alpine
+FROM    node:9-alpine
+RUN     apk add --no-cache python make
 WORKDIR /src
 COPY    package.json /src
 RUN     npm install
