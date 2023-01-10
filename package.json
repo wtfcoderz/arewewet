@@ -19,6 +19,6 @@
   "dependencies": {
     "redis": "^2.8.0",
     "request": "^2.81.0",
-    "restify": "^5.2.0"
+    "restify": "^8.1.0"
   }
 }
